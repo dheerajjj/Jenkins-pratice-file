@@ -7,5 +7,10 @@ pipeline {
         echo 'Hello DevOps Engineer'
       }
     }
+    stage('Build') {
+      steps {
+        echo 'Building pipeline'
+      }
+    }  
   }
 }
