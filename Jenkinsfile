@@ -11,7 +11,8 @@ pipeline {
       steps {
         echo 'Building pipeline now'
       }
-    }  
+    }
+``}  
   post {
     always {
       echo 'This will always execute after build'
